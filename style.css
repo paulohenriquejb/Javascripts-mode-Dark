@@ -1,0 +1,57 @@
+.dark-mode{
+    background: #212529;
+    color: #899095;
+}
+.dark-mode #mode-selector{
+    background: #212529;
+    color: #899095;
+    margin-left: -19vh;
+
+}
+
+.dark-mode #normal {
+    background: #212529;
+    color: #899095;
+  
+
+}
+
+main{
+ 
+    height: 100%;
+    width: 100%;
+
+}
+#centro{
+    width: 100vw;
+    height: 90vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#mode-selector{
+    margin-top: 70px;
+    margin-left: -23vh;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    background: white;
+
+    
+} 
+
+#mode-selector:hover{
+    background: black;
+    color: white;
+}
+
+
+#normal{
+    text-align: center;
+    font-size: 16px;
+    background: black;
+    color: white;
+}
+    
